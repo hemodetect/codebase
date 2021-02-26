@@ -1,0 +1,64 @@
+<!--2016-2021 UFP
+    "Towards Early Hemolysis: Detection: a Smartphone based Approach" PhD thesis
+    "HemoDetect" prototype app code
+    email contact for questions or support: 35727@ufp.edu.pt-->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/mImageView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/green_hospital"
+        android:scaleType="fitCenter" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="2">
+
+        <RelativeLayout
+            android:id="@+id/luminance"
+            android:layout_width="0dp"
+            android:layout_height="106.5dp"
+            android:layout_weight="1">
+
+            <TextView
+                android:id="@+id/luminanceText"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"/>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/density"
+            android:layout_width="0dp"
+            android:layout_height="106.5dp"
+            android:layout_weight="1">
+
+            <TextView
+                android:id="@+id/densityText"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"/>
+        </RelativeLayout>
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btnOpenCameraView"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:background="@color/orange_200"
+        android:gravity="center"
+        android:layout_alignParentBottom="true"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="60dp"
+        android:layout_marginBottom="13dp"
+        android:text="@string/button_message" />
+
+</RelativeLayout>

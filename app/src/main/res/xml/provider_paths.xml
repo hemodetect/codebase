@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--2016-2021 UFP
+    "Towards Early Hemolysis: Detection: a Smartphone based Approach" PhD thesis
+    "HemoDetect" prototype app code
+    email contact for questions or support: 35727@ufp.edu.pt-->
+<paths xmlns:android="http://schemas.android.com/apk/res/android">
+    <external-path name="my_images" path="Android/data/com.chrischifor.hemolysisdetection/files/Pictures"/>
+</paths>

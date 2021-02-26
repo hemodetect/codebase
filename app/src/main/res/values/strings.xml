@@ -1,0 +1,11 @@
+<!--2016-2021 UFP
+    "Towards Early Hemolysis: Detection: a Smartphone based Approach" PhD thesis
+    "HemoDetect" prototype app code
+    email contact for questions or support: 35727@ufp.edu.pt-->
+<resources>
+    <string name="app_name">HemoDetect</string>
+    <string name="action_settings">Settings</string>
+    <string name="luminance">Brightest color</string>
+    <string name="density">Most dense color</string>
+    <string name="button_message">start hemolysis detection</string>
+</resources>
